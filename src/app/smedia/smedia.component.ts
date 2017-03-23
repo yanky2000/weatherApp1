@@ -6,6 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./smedia.component.css']
 })
 export class SmediaComponent implements OnInit {
+  
   @Input() hotel
   constructor() { }
 

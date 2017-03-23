@@ -1,4 +1,3 @@
-import { HotelsService } from './hotels/hotels.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -10,6 +9,7 @@ import { HotelsListComponent } from './hotels/hotels-list/hotels-list.component'
 import { HotelThumbnailComponent } from './hotels/hotel-thumbnail/hotel-thumbnail.component';
 import { SmediaComponent } from './smedia/smedia.component';
 import { WeatherDetailsComponent } from './weather-details/weather-details.component';
+import { HotelsService } from './hotels/hotels.service';
 
 @NgModule({
   declarations: [

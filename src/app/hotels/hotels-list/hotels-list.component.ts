@@ -20,7 +20,6 @@ export class HotelsListComponent implements OnInit {
   @Output() hotelClicked = new EventEmitter()
 
   setCurrentHotel(hotelId:number){
-    console.log(this.hotelService.getHotel(hotelId).name)
     this.hotelClicked.emit(hotelId)
   }
 }
