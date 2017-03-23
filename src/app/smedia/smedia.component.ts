@@ -5,12 +5,9 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './smedia.component.html',
   styleUrls: ['./smedia.component.css']
 })
-export class SmediaComponent implements OnInit {
+export class SmediaComponent {
   
-  @Input() hotel
-  constructor() { }
-
-  ngOnInit() {
-  }
+  @Input() 
+  public hotel
 
 }

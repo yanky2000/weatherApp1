@@ -19,8 +19,6 @@ export class AppComponent implements OnInit {
     this.currentHotel = this.hotelsService.getHotel(1)
   }
 
-
-
   hotelClickedHandler(id) {
     this.currentHotel = this.hotelsService.getHotel(id)
     console.info(this.currentHotel.city)
