@@ -1,14 +1,8 @@
-<div>
+<div class="main-container">
+  <app-hotels-list (hotelClicked)="hotelClickedHandler($event)"></app-hotels-list>
+  <div>
+    <app-smedia [hotel]="currentHotel "></app-smedia>
+    <app-weather-details [hotel]="currentHotel "></app-weather-details>
+  </div>
+
 </div>
-
-<md-grid-list cols="4">
-    <img src="../assets/images/1.jpg" alt="">
-  <md-grid-tile colspan="3" rowspan="2">
-    <app-hotels-list (hotelClicked)="hotelClickedHandler($event)"></app-hotels-list>
-  </md-grid-tile>
-  <md-grid-tile colspan="1" rowspan="2">
-    <app-smedia [hotel]="currentHotel"></app-smedia>
-    <app-weather-details [hotel]="currentHotel"></app-weather-details>
-  </md-grid-tile>
-
-</md-grid-list>

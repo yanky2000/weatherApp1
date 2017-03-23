@@ -1,1 +1,17 @@
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
+.main-container {
+    display: flex;
+    justify-content: center;
+};
+
+.hotel-list-container {
+    max-height: 200px;
+    overflow: scroll;
+
+}
+
+app-hotel-list {
+    height: 350px;
+    color: red;
+}

@@ -18,7 +18,7 @@ const HOTELS = [
   { 
     id:1,
     name: "Milan Marriott Hotel",
-    imageUrl:"../assets/images/b1.jpg",
+    imageUrl:"../assets/images/milan_hotel.jpg",
     imageUrl2:"../assets/images/r1.jpg",
     address: "Via Giorgio Washington 66",
     city: "Milan",
