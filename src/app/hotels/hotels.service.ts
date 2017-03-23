@@ -23,7 +23,6 @@ const HOTELS = [
     address: "Via Giorgio Washington 66",
     city: "Milan",
     tel: "555-555-5555",
-    desc: " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vi",
     weather: {
       temperature: 38,
       water: 35
@@ -38,7 +37,6 @@ const HOTELS = [
     imageUrl2:"../assets/images/r1.jpg",
     address: "Carrer Provença 181, 2-2",
     city: "Barcelona",
-    desc: " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vi",
     tel: "666-666-66666",
     weather: {
       temperature: 40,
@@ -54,7 +52,6 @@ const HOTELS = [
     address: "Schubertring 5-7",
     imageUrl:"../assets/images/vienna_hotel.jpg",
     imageUrl2:"../assets/images/r1.jpg",
-    desc: " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vi",
     city: "Vienna",
     tel: "444-4444-44444",
     weather: {
@@ -71,7 +68,6 @@ const HOTELS = [
     city: "Phuket",
     imageUrl:"../assets/images/phuket_hotel.jpg",
     imageUrl2:"../assets/images/r1.jpg",
-    desc: " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vi",
     tel: "666-556-1234",
     weather: {
       temperature: 33,
