@@ -1,5 +1,7 @@
-<md-card>
-  
-  Likes: {{hotel.likes}} 
-  Followers: {{hotel.followers}}
+<md-card class="smedia-container">
+  <h2>{{hotel.name}}</h2>
+  <img [src]="hotel.imageUrl" alt="hotel.name">
+  <div>
+    Likes: {{hotel.likes}} Followers: {{hotel.followers}}
+  </div>
 </md-card>

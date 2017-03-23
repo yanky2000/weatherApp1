@@ -1,0 +1,20 @@
+.weather-container {
+    background-color: rgb(44.1%, 89.7%, 98.4%);
+    color: white;
+    min-height: 150px;
+}
+
+md-card-title {
+    font-size: 36px
+}
+
+.weather-container-content {
+    display: flex;
+    align-items: center;
+
+}
+
+span {
+    margin-left: 20px;
+    font-size: 32px
+}

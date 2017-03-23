@@ -1,0 +1,11 @@
+.hotel-thumbnail-content {
+    display: flex
+}
+
+
+img {
+    margin-right: 40px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}

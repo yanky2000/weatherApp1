@@ -1,4 +1,8 @@
-<md-card>
-  <md-card-title>{{hotel.city}}</md-card-title>
-  Temperature: {{hotel.weather.temperature}} Water: {{hotel.weather.water}}
+<md-card class="weather-container">
+  <md-card-title>
+    {{hotel.city}}</md-card-title>
+  <div class="weather-container-content">
+  <img src="../../assets/images/wi.png" alt="">
+  <span>{{hotel.weather.temperature}}</span>
+  </div>
 </md-card>

@@ -1,4 +1,15 @@
 .list-container {
     height: 350px;
     overflow: scroll;
+    padding: 0;
+}
+
+
+.mat-card {
+    padding: 0;
+    margin-right: 20px;
+}
+
+img {
+    margin-bottom: 20px
 }
