@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   
-  title = 'app works!';
   currentHotel:any
   
   constructor(
@@ -21,6 +20,5 @@ export class AppComponent implements OnInit {
 
   hotelClickedHandler(id) {
     this.currentHotel = this.hotelsService.getHotel(id)
-    console.info(this.currentHotel.city)
   }
 }

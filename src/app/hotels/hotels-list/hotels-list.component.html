@@ -1,8 +1,8 @@
 <md-card>
   <img src="../assets/images/1.jpg" alt=" ">
-  <div class="list-container">
+  <div class="list-container" >
     <span *ngFor="let hotel of hotels">
-    <app-hotel-thumbnail [hotel]="hotel" (click)="setCurrentHotel(hotel.id)" ></app-hotel-thumbnail>
-  </span>
+      <app-hotel-thumbnail  [hotel]="hotel" (click)="setCurrentHotel(hotel.id)"></app-hotel-thumbnail>
+    </span>
   </div>
 </md-card>
