@@ -1,25 +1,34 @@
-import { HotelsService } from '../hotels.service';
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-hotels-list',
   templateUrl: './hotels-list.component.html',
   styleUrls: ['./hotels-list.component.css']
 })
-export class HotelsListComponent implements OnInit {
-  
-  hotels: any
-  constructor(
-    private hotelService: HotelsService
-  ) { }
 
-  ngOnInit() {
-   this.hotels = this.hotelService.getHotels()
+export class HotelsListComponent {
+
+  public show(t) {
+    console.log(t)
+  }
+  leasureToSearch: any
+
+  public doFilter(term):void {
+    this.leasureToSearch = term
+    console.log(this.leasureToSearch)
   }
 
-  @Output() hotelClicked = new EventEmitter()
+  @Input()
+  hotels: Hotel[]
 
-  setCurrentHotel(hotelId:number){
+  @Input()
+  leisureTypes: any
+
+  @Output()
+  hotelClicked = new EventEmitter()
+
+  hotelClickedHandler(hotelId: number) {
     this.hotelClicked.emit(hotelId)
   }
+
 }

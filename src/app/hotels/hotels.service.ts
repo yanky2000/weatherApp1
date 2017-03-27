@@ -13,7 +13,7 @@ export class HotelsService {
   }
 }
 
-const HOTELS: Hotel[] = [
+const HOTELS = [
   { 
     id:1,
     name: "Milan Marriott Hotel",

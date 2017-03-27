@@ -8,6 +8,10 @@ import { Component, Input } from '@angular/core';
 
 export class HotelThumbnailComponent {
 
-  @Input() hotel
+  @Input() 
+  public hotel:Hotel
+  
+  @Input() 
+  public isOdd:boolean
 
 }
