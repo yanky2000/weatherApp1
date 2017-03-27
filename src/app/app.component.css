@@ -1,11 +1,10 @@
-
 .main-container {
     display: flex;
     justify-content: center;
     
 };
 
-.hotel-list-container {
+.hotel-list_container {
     max-height: 200px;
     overflow-y: scroll;
 }

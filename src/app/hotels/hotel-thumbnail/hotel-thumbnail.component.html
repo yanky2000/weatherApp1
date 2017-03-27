@@ -1,37 +1,17 @@
-<md-card class="hotel-thumbnail">
+<md-card 
+  [ngClass]="{
+    'hotel-thumbnail':true, 
+    'active-hotel':mouseOverItem,
+    'odd-bgc':isOdd
+    }" 
+  (mouseover)="mouseOverItem=true" 
+  (mouseleave)="mouseOverItem=false">
   <h3>{{hotel.name}}</h3>
   <div class="hotel-thumbnail-content">
     <img [src]="hotel.imageUrl" alt="hotel.name">
     <div class="hotel-thumbnail-content-address">
-    <p> Address: {{hotel.address}}, </p>
-    <p> TEL: {{hotel.tel}}, </p>
+      <p> Address: {{hotel.location.address}}, </p>
+      <p> TEL: {{hotel.tel}}, </p>
     </div>
-    <!--<p>{{hotel.city}}</p>-->
-    <!--<img [src]="hotel.imageUrl2" alt="hotel.name">-->
   </div>
 </md-card>
-
-<!--<md-card>
-  
-  <md-card-title>{{hotel.name}}</md-card-title>
-
-  <img md-card-image [src]="hotel.imageUrl" alt="hotel.name">
-  <img md-card-image [src]="hotel.imageUrl2" alt="hotel.name">
-
-</md-card>-->
-<!--<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>-->
-<!--<md-card>
-          <md-card-title>
-            <md-card-title-text>
-            <span class="md-headline">Card with image</span>
-            <span class="md-subhead">Large</span>
-          </md-card-title-text>
-          <md-card-title-media>
-            <div class="md-media-lg card-media"></div>
-          </md-card-title-media>
-        </md-card-title>
-        <md-card-actions layout="row" layout-align="end center">
-          <md-button>Action 1</md-button>
-          <md-button>Action 2</md-button>
-        </md-card-actions>
-      </md-card>  -->

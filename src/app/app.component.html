@@ -1,7 +1,11 @@
 <div class="main-container">
-  <app-hotels-list (hotelClicked)="hotelClickedHandler($event)"></app-hotels-list>
+  <app-hotels-list class="hotel-list_container" 
+    [hotels]="hotels"
+    [leisureTypes]="leisureTypes" 
+    (hotelClicked)="setCurrentHotel($event)">
+  </app-hotels-list>
   <div class="side_widg">
-    <app-smedia [hotel]="currentHotel "></app-smedia>
-    <app-weather-details [hotel]="currentHotel "></app-weather-details>
+    <app-smedia [hotel]="currentHotel"></app-smedia>
+    <app-weather-details [hotel]="currentHotel"></app-weather-details>
   </div>
 </div>

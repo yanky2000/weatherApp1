@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class HotelsService {
 
-  constructor() { }
 
   getHotels() {
     return HOTELS
@@ -75,7 +74,7 @@ const HOTELS = [
     },
     likes: 1,
     followers: 2
-  },
+  }
 
 
   ]
