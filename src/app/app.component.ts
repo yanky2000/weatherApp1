@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
       followers: 228
     },
     {
-      id: 5,
+      id: 4,
       name: "The Vijitt Resort Phuket",
       imageUrl: "../assets/images/phuket_hotel.jpg",
       imageUrl2: "../assets/images/r1.jpg",
@@ -96,10 +96,12 @@ export class AppComponent implements OnInit {
   public currentHotel: Hotel
 
   ngOnInit() {
-    this.currentHotel = this.hotels[1]
+    this.currentHotel = this.hotels[0]
   }
 
   setCurrentHotel(id) {
-    this.currentHotel = this.hotels[id]
+    // console.log("app comp" + id)
+    this.currentHotel = this.hotels[id-1]
+    // console.log(this.currentHotel.name)
   }
 }

@@ -8,14 +8,10 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 export class HotelsListComponent {
 
-  public show(t) {
-    console.log(t)
-  }
   leasureToSearch: any
 
   public doFilter(term):void {
     this.leasureToSearch = term
-    console.log(this.leasureToSearch)
   }
 
   @Input()
@@ -27,7 +23,7 @@ export class HotelsListComponent {
   @Output()
   hotelClicked = new EventEmitter()
 
-  hotelClickedHandler(hotelId: number) {
+  hotelClickedHandler(hotelId:number) {
     this.hotelClicked.emit(hotelId)
   }
 
